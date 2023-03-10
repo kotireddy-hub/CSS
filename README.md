@@ -5,7 +5,7 @@ css styling lang
 
 css inculde -> margin pading background front border etc 
 
-we need include in head tag
+we need include style inside head tag
 
 ```css
 syntax:-
@@ -60,12 +60,12 @@ color:"red";
 
 1. main branch create 
 1. main clone (git clone URL)
-1. main new create branch (git checkout -b branchName) next time (git checkout branchName)
+1. main new create branch (git checkout -b branchName) (only first time) next time (git checkout branchName)
 1. new branch work
 1. need add file to stage area (git add fileName) (.)
-1. new commit 
-1. new branch push 
-1. new commit pull request -> main branch -> review -> merge master
+1. new commit  (git commit -m "message")
+1. new branch push (git push -u origin master) (only first time)
+1. new commit -> pull request -> main branch -> review -> merge master
 
 
 
