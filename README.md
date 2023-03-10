@@ -1,4 +1,14 @@
-# CSS
+
+# CSS Concepts
+### Class 1: CSS Fundamentals
+- [x] Introduction to CSS
+- [x] Adding CSS Styles to your Page
+- [ ] Selectors, Properties, and Values
+- [ ] Colors
+- [ ] Fonts and Text
+
+
+
 cascading styles sheet(css) css3
 css styling lang
 
@@ -66,8 +76,6 @@ color:"red";
 1. new commit  (git commit -m "message")
 1. new branch push (git push -u origin master) (only first time)
 1. new commit -> pull request -> main branch -> review -> merge master
-
-
 
 
 
