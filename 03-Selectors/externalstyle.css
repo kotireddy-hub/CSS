@@ -1,0 +1,29 @@
+/* div{
+    color: red;
+} */
+/* .classSelector{
+    color: royalblue
+} */
+#idSelector{
+    color: blue;
+}
+
+.parclassSelector{
+    color: black;
+}
+/* Attribute Selector */
+/* div[aria-label]{
+    color: chartreuse;
+} */
+div[data-testid="divTag"] {
+    /* color: red; */
+    color: rgb(255, 0, 0);
+}
+
+/* div a[href]{
+    color: black;
+} */
+
+.backgroungForDiv{
+   color: rgb(16, 30, 226);
+}

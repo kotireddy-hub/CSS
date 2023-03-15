@@ -3,7 +3,7 @@
 ### Class 1: CSS Fundamentals
 - [x] Introduction to CSS
 - [x] Adding CSS Styles to your Page
-- [ ] Selectors, Properties, and Values
+- [x] Selectors, Properties, and Values
 - [ ] Colors
 - [ ] Fonts and Text
 
