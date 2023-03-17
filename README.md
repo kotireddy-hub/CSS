@@ -4,8 +4,22 @@
 - [x] Introduction to CSS
 - [x] Adding CSS Styles to your Page
 - [x] Selectors, Properties, and Values
-- [ ] Colors
+- [X] Colors
 - [ ] Fonts and Text
+- [ ] Backgrounds
+- [ ] Applying CSS Filters
+- [ ] The Box Model: Padding, Border, Margin
+- [ ] Grouping and Nesting CSS Selectors
+- [ ] Pseudo-Classes
+- [ ] Pseudo-Elements
+- [ ] Using CSS Variables
+- [ ] Display
+- [ ] Flexible Box Layout
+- [ ] Grid Layout
+- [ ] Position
+- [ ] Float and Clear
+- [ ] Columns
+- [ ] Page Layout Techniques
 
 
 
