@@ -5,7 +5,7 @@
 - [x] Adding CSS Styles to your Page
 - [x] Selectors, Properties, and Values
 - [X] Colors
-- [ ] Fonts and Text
+- [x] Fonts and Text
 - [ ] Backgrounds
 - [ ] Applying CSS Filters
 - [ ] The Box Model: Padding, Border, Margin
