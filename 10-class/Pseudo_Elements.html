@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p:first-child{
+            color: red;
+        }
+        p:last-child{
+          background-color: blue;  
+          color: #fff;
+        }
+        p:nth-child(4){
+            color: red;
+        }
+        p:last-child{
+            color: red;
+        } */
+        p:first-of-type{
+            color: red;
+        }
+        div:first-of-type{
+            background-color: red;
+        }
+        div:nth-of-type(4){
+            color: green;
+        }
+        div:last-of-type{
+            background-color: azure;
+        }
+        .para:nth-of-type(7){
+            color: aqua;
+
+        }
+        .today::after{
+           content: "@";
+        }
+        .today::first-letter{
+            font-size: 200px;
+        }
+        .today::first-line{
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- 
+        what pseudo elements
+        1.id based 
+        2.class based
+     -->
+    <p>This Is Para 1</p>
+    <div>Hello</div>
+    <p>This Is Para 2</p>
+    <p>This Is Para 3</p>
+    <p>This Is Para 4</p>
+    <p>This Is Para 5</p>
+    <p>This Is Para 6</p>
+    <div>Hello</div>
+    <div>Hello</div>
+    <div>Hello</div>
+    <div>Hello</div>
+    <p class="para">This Is Para 7</p>
+    <p class="para">This Is Para 8</p>
+    <p class="para">This Is Para 9</p>
+
+    <p class="today">Kotiredy Using the before and after pseudo-elements, you can add content before or after an element. You do this via the content property, which takes a string as a value. Using the before and after pseudo-elements, you can add content before or after an element. You do this via the content property, which takes a string as a value.Using the before and after pseudo-elements, you can add content before or after an element. You do this via the content property, which takes a string as a value.</p>
+</body>
+</html>
