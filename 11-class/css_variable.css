@@ -1,0 +1,31 @@
+:root{
+    --sabe-purple:green;
+    --sabe-padding: 1.25rem;
+    --sabe-redColor:red;
+}
+
+p{
+    color: var(--sabe-purple);
+    padding: var(--sabe-padding);
+}
+div{
+    color: var(--sabe-redColor);
+}
+.div1{
+    color: var(--sabe-redColor);
+}
+.mainDiv{
+    background-color: green;
+}
+
+.mainDiv{
+    display: inline;
+}
+
+/* .mainDiv span:nth-of-type(4){
+    display: none;
+} */
+
+.Div{
+   display: inline-flex;
+}
