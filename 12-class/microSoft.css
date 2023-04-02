@@ -1,0 +1,36 @@
+:root{
+    --microSoft-orange:#b94e33;
+    --microSoft-blue:#3271a8;
+    --microSoft-green:#5da832;
+    --microSoft-yellow:#a89432;
+}
+
+
+.MainDiv{
+    background-color: white;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    display: inline-flex;
+}
+#div1,#div2,#div3,#div4{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+#div1{
+    background-color: var(--microSoft-orange);
+    margin-right: 0.625rem;
+    margin-bottom: 10px;
+}
+#div2{
+    background-color: #3271a8;
+}
+#div3{
+    background-color: #5da832;
+    margin-right: 0.625rem;
+    margin-bottom: 10px;
+}
+#div4{
+    background-color: #a89432;
+}
