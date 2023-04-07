@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            /* flex: 1; */
+            /* align-items: flex-end;*/
+            /* height: 100vh;  */
+            /*align-content: center; */
+            /* 
+            7 - 1325 browser 
+
+            189px - 
+            
+            */
+            /* flex-wrap: wrap; */
+        }
+        .item{
+           background-color: lightblue;
+            height: 700px;
+            padding: 1rem;
+            margin: 1rem;
+            width: 400px; 
+            /* flex-grow: 2; */
+            /* flex-shrink: 2; */
+            /* align-self: flex-start; */
+            /* 1325 width 
+            16 * 6 = 72
+            400 - diobule
+            1325 - 472 = 900
+            equal - 6
+            */
+        }
+        .dobule{
+            /* flex-grow: 2; */
+            /* flex-shrink: 0; */
+            /* 1rem = 16px = 160px */
+            /* flex-basis: 10rem; 
+            align-self: center; */
+        }
+        /* .d{
+            flex-shrink: 2;
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <!-- <div class="item dobule">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div> -->
+    </div>
+</body>
+</html>
