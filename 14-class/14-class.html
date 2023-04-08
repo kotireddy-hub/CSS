@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer{
+            background-color: aqua;
+            padding: 1rem;
+        }
+        /* 
+        postion: Absolute  | Relative  | Fixed  |Sticky  */
+        .inner{
+            background-color: blue;
+            padding: 1rem;
+            position: Sticky;
+            left: 2rem;
+            top: 2rem;
+        }
+         .floatDiv{
+            float: left;
+        }
+        /*.floatDiv1{
+            float: right;
+        } */
+        .floatDiv1{
+            clear: both;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="outer">
+        Outer
+        <div class="inner">Inner</div>
+    </div>
+    <div class="floatDiv">
+        <img src="images.jpg" />
+    </div>
+    <div class="floatDiv1">Cacke is good</div>
+</body>
+</html>
